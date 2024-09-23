@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Value at Risk (VaR) and Conditional Value at Risk (CVaR) are two metrics used in quantative finance to assess the risk of a portfolio. VaR determines, to a given degree of certainity, what the maximum loss of a portfolio would be over a given time period. Similarly, CVaR forecasts what the average loss would be for a portfolio in the case where the true loss of that portfolio exceeded the maximum loss that VaR estimated. Both VaR and CVaR are equally informative and are often used in conjunction. 
+Value at Risk (VaR) and Conditional Value at Risk (CVaR) are two metrics used in quantitative finance to assess the risk of a portfolio. VaR determines, to a given degree of certainty, what the maximum loss of a portfolio would be over a given time period. Similarly, CVaR forecasts what the average loss would be for a portfolio in the case where the true loss of that portfolio exceeded the maximum loss that VaR estimated. Both VaR and CVaR are equally informative and are often used in conjunction. 
 
 With the rise of data science, researchers in finance have begun to use Monte Carlo simulations as a tool to simulate a fraction of the many different combinations of how the compounded returns of a portfolio could unfold over a given period of time. Oftentimes, in these simulations, researchers assume that the assets within these portfolios are normally distributed. Sometimes this assumption is true, but in equally as many cases, this assumption is false. In this study, I assumed that all assets *were* normally distributed. If one wanted to assume a different distribution, they would need to change the following line to sample values from the distribution of their choice: 
 
